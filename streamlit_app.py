@@ -41,7 +41,7 @@ with st.echo(code_location='below'):
     
     from PIL import Image
 
-    image = Image.open("Gambar\IMG_2382.PNG")
+    image = Image.open("https://github.com/william-982/streamlit-example/blob/master/IMG_2382.PNG")
     st.image(image,
             use_column_width=True
     )
